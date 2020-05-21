@@ -8,13 +8,17 @@ This is a list of features we would need to have a complete product ready in Sep
 * Sensors connected to the robot (colour, speed, position etc).
 * Fully scripted robot control code.
 * Scriptable objects in the world; for example, a ball dispenser.
-* Controller based controls such as a virtual joystick.
-* Account capabilities such as saving work, work that is viewable by tutors, interation between students etc.
+
+![MVP Draft](res/MVP_draft.png)
 
 ## Realistic Goals
 This is a list of features we could realistically add in the time frame given the MVP:
-* Challenge/Arena builder
-* Scorboard
+* Account capabilities such as saving work, work that is viewable by tutors, interation between students etc.
+* A tutorial on how to use the system, not how to code.
+* Map builder
+* Controller based controls such as a virtual joystick.
+* Scoreboard
 
 ## Stretch Goals
 This is a list of nice-to-have features that are less of a priority unless we have a fully working product with all of our realistic goals achieved:
+* Full 3D simluation for multiple levels and ramps
