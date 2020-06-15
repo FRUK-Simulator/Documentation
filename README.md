@@ -1,22 +1,39 @@
-# Project Goal
-Provide a learning platform where students can explore and learn the practical challenges involved with using programming to control a robot. Learning to code withsome real world constraints will hopefully provide the necessary motivation and challenges to make it interesting. The tool is intended to be used in a classroom setting with exercises for learning. Additionally the tool should allow students to experiment freely.
+# FIRST UK Simulator Documentation
 
-## Key Points
-* Aimed at 12 year old (key stage 3) students.
-* Browser based (chrome, firefox).
-* Should require coding knowledge to the same level as the existing First UK Tech challenge for the same age group.
-* Software should be able to run on cheap laptops and classroom PCs.
+This repository comprises the documentation for the different projects and repositories listed 
+under the [FIRST UK organization][fruk-org]. We are a group of volunteers that are working to 
+allow students and mentors to easily write, compile, and test code in a browser-based simulator.
 
-## Technology Stack
-### Frontend
-* HTML, CSS
-* TypeScript
-* Webpack
-* Three.js (WebGL) - For 3D rendering
-* Google Blockly - For block code editor
-* Monaco - For text editor (possibly not needed)
+Please read the documentation for more information.
 
-### Backend
-* Python / Node.js
-* Nginx / AWS - For static frontend file serving
-* Postgres - For databases
+## Running the Documentation
+
+The documentation is rendered using [Docsify][docsify], a static site generator that is fast and 
+resource-cheap. It provides a clean, professional view that can be customized and detail-oriented.
+
+For local development, clone this repository and make sure to have either the `docsify` tool or 
+`npx` Node tool installed.
+
+### Via `docsify-cli`
+
+```
+# you may need sudo for this
+npm i docsify-cli -g
+```
+
+You can then run 
+
+```
+docsify serve .
+```
+
+### Via `npx`
+
+You can also run the service without needing to install it if you have `npx` installed. It should 
+be installed by default on newer versions of NodeJs.
+
+```
+npx docsify-cli serve .
+```
+
+[fruk-org]: https://github.com/FRUK-Simulator
